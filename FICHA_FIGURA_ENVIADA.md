@@ -13,6 +13,11 @@ sin las líneas `vn`).
 | **Fecha del paquete** | 2026-08-03 |
 | **Unidades del fichero** | milímetros, 1 unidad = 1 mm |
 | **Origen** | Z=0 en la base, centrada en XY (centro 0,0) |
+| **Pedido el** | 2026-08-18 |
+| **Llegó el** | 2026-08-28 (10 días) |
+| **Coste pieza** | 108,00 € |
+| **Aduanas / DHL Express** | 48,62 € |
+| **Coste total puerta a puerta** | **156,62 €** |
 
 ---
 
