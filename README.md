@@ -3,6 +3,8 @@
 Tubería para convertir **una foto** en una **cabeza 3D imprimible** (figurina personalizada).
 El cuerpo es una fase posterior.
 
+Ficha de la figura ya enviada a JLC: **[FICHA_FIGURA_ENVIADA.md](FICHA_FIGURA_ENVIADA.md)**
+
 Lee primero: **[INVESTIGACION_MODELOS_CARA.md](INVESTIGACION_MODELOS_CARA.md)** — qué modelo
 elegimos, por qué, y cuál es el criterio de aceptación.
 
