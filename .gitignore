@@ -1,0 +1,12 @@
+venv/
+*.glb
+*.obj
+*.ply
+# capturas de depuracion de la Space de Hunyuan: descartado el modelo, sobran
+ajustes_*.png
+antes_gen.png
+error.png
+space.png
+tab_advanced.png
+hunyuan_A.png
+gen.log
