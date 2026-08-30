@@ -6,21 +6,21 @@ echo "=== Benchmark setup en RunPod A40 ==="
 cd /root
 
 # Dependencias base
-pip install -q trimesh insightface opencv-python tqdm pillow numpy torch
+pip install -q trimesh insightface opencv-python tqdm pillow numpy torch huggingface_hub
 
 # TRELLIS.2-4B
-echo "Clonando TRELLIS.2..."
+echo "Descargando TRELLIS.2 con snapshot_download..."
 if [ ! -d "trellis" ]; then
-  git clone https://huggingface.co/JeffreyXiang/TRELLIS trellis
+  python -c "from huggingface_hub import snapshot_download; snapshot_download('JeffreyXiang/TRELLIS', local_dir='trellis')"
 fi
 cd trellis
 pip install -q -e .
 cd ..
 
 # TripoSG
-echo "Clonando TripoSG..."
+echo "Descargando TripoSG con snapshot_download..."
 if [ ! -d "tripo" ]; then
-  git clone https://huggingface.co/VAST-AI-Research/TripoSR tripo
+  python -c "from huggingface_hub import snapshot_download; snapshot_download('VAST-AI-Research/TripoSR', local_dir='tripo')"
 fi
 cd tripo
 pip install -q -e .
